@@ -1,0 +1,207 @@
+/* Basic */
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+
+.header {
+}
+
+.header__inner {
+    display: flex;
+    background-color: #ccc;
+    padding: 24px 0;
+}
+
+.header__title {
+    width: 75%;
+}
+
+.header__link {
+    width: 25%;
+}
+
+.header__link:hover {
+    color: #f90;
+}
+
+
+/* content */
+
+
+.content {
+    flex-grow: 1;
+}
+
+.content__inner {
+    display: flex;
+}
+
+.content__main {
+    width: 75%;
+    padding: 24px 24px 24px 12px;
+}
+
+.content__main--width-full {
+    width: 100%;
+    padding: 0;
+}
+
+.content__aside {
+    width: 25%;
+    padding: 24px;
+}
+
+.content__title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;
+}
+
+.book {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 24px;
+}
+
+.book__text {
+    line-height: 1.75rem;
+}
+
+.book__preview {
+    line-height: 1.75rem;
+}
+
+
+/* aside */
+
+
+.content__aside {
+}
+
+.form {
+    padding: 0 24px 24px 24px;
+    margin-bottom: 36px;
+    border: 1px solid #000;
+}
+
+.form--border-none {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form__input {
+    margin-bottom: 8px;
+    padding: 8px 16px;
+}
+
+.form__select {
+    margin-bottom: 12px;
+    width: 200px;
+}
+
+.form__option {
+    padding: 4px 8px;
+}
+
+.form__textarea {
+    padding: 8px 16px;
+    min-width: 400px;
+    margin-bottom: 16px;
+}
+
+.result {
+    padding: 24px 24px 24px 24px;
+    border: 1px solid #000;
+    margin-bottom: 36px;
+}
+
+.result__author {
+    margin-bottom: 24px;
+}
+
+.list {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    margin: 0;
+    list-style: none;
+}
+
+.list__title {
+    margin: 8px 0;
+}
+
+.list__item {
+    margin-bottom: 4px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 4px;
+}
+
+.list__link {
+    text-decoration: none;
+}
+
+.list__link:hover {
+    text-decoration: none;
+    color: #f90;
+}
+
+
+/* Table */
+
+
+.table {
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+
+.table__title {
+    padding: 8px 16px;
+}
+
+.table__cell {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.table__cell--book-name {
+    text-align: left;
+}
+
+.table__link {
+    text-decoration: none;
+}
+
+.table__link:hover {
+    text-decoration: none;
+    color: #f90;
+}
+
+
+/* footer */
+
+
+.footer {
+}
+
+.footer__inner {
+    background-color: #f90;
+    padding: 24px 0;
+}
